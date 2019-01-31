@@ -15,7 +15,7 @@ def line(peps)
 	def take_a_number(peps, name)
 	# adds person with name to back of linearr
 	# tells person their position in line
-	linearr << name
+	peps << name
 	puts "Welcome, #{name}. You are number #{peps.length} in line."
 	end
 	def now_serving(peps)
