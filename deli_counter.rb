@@ -1,5 +1,5 @@
 # Write your code here.
-def line(linearr)	
+def line(linearr)
 	# Prints out the entire line with position and name
 	# if line empty, says so
 	if linearr.length == 0
