@@ -1,4 +1,4 @@
 # Write your code here.
-def deli_counter(array)
-  deli_counter = []
+def deli_counter(line)
+  line = []
 end
