@@ -13,13 +13,13 @@ def line(peps)
 	end
 	end
 	def take_a_number(peps, name)
-	# adds person with name to back of linearr
+	# adds person with name to back of peps
 	# tells person their position in line
 	peps << name
 	puts "Welcome, #{name}. You are number #{peps.length} in line."
 	end
 	def now_serving(peps)
-	# calls next person in line and removes them from linearr
+	# calls next person in line and removes them from peps
 	# if line empty, prints that nobody is waiting
 	if peps.length == 0
 	puts "There is nobody waiting to be served!"
